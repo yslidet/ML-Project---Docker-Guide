@@ -25,7 +25,7 @@ Each container keeps its own ingredients and tools, so nothing leaks or conflict
 
 
 ## Setup 
-
+Copy the   `setup/` folder to your project
 
 ### Docker Installation
 Build a docker image to install dependencies
