@@ -1,0 +1,2 @@
+#anything you want to pip install 
+yt_dlp

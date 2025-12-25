@@ -1,0 +1,23 @@
+version: '3.10'
+
+services:
+  my_project:
+    image: project:v1
+    container_name: my_project
+
+    # Enable GPU access
+    # runtime: nvidia
+    # environment:
+    #  - NVIDIA_VISIBLE_DEVICES=0  # Select GPU 0 
+
+    # ports: #format is "host:container"
+    #   - "8282:8282"   
+
+    volumes:
+      - /Users/usr/Documents/Project:/home/Project
+       
+    shm_size: '8gb'
+    stdin_open: true  #same as -it 
+    tty: true         #same as -it
+    working_dir: /home/Project
+    # command: bash run_ml.sh
