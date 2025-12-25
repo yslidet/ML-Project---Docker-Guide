@@ -49,7 +49,9 @@ Create/Remove the container
 # start
 docker-compose -f setup/compose_docker.yml up -d
 
-# stop 
+# do your thing -> `Running Script` 
+
+# stop (when you are done with this container)
 docker-compose -f setup/compose_docker.yml down
 ```
 
